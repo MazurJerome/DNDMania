@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+body .imgFond {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: -1;
+}
+body header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+body nav {
+  display: flex;
+}
+body nav ul {
+  display: flex;
+}
+body nav ul li {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+body nav ul li a {
+  width: calc(3rem + 10vh);
+  color: #000;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.l_Monster {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.l_Monster .linkImgL_Monster {
+  width: 40%;
+  height: 85vh;
+  position: relative;
+}
+.l_Monster .linkImgL_Monster .imgL_Monster {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.l_Monster .infosL_Monster {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.l_Monster .infosL_Monster .nameL_Monster {
+  font-size: 2rem;
+  margin: 10px 5px 20px 15px;
+}
+.l_Monster .infosL_Monster .bodyInfosL_Monster {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 5px 20px 15px;
+}
+.l_Monster .infosL_Monster .bodyInfosL_Monster .descL_Monster {
+  width: 40%;
+  font-size: 1.3rem;
+  margin: 10px;
+}
+.l_Monster .infosL_Monster .bodyInfosL_Monster .descL_Monster .statsGL_Monster {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.l_Monster .infosL_Monster .bodyInfosL_Monster .descL_Monster .statsGL_Monster p {
+  margin: 3px 0;
+}
+.l_Monster .infosL_Monster .bodyInfosL_Monster .descL_Monster .statsPrincL_Monster {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.l_Monster .infosL_Monster .bodyInfosL_Monster .descL_Monster .statsPrincL_Monster p {
+  margin: 3px 0;
+}
+.l_Monster .infosL_Monster .bodyInfosL_Monster .loreL_Monster {
+  width: 60%;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.mid_Page {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 200px;
+}
+.mid_Page .gestionPerso {
+  display: flex;
+  width: 50%;
+  margin: 30px;
+}
+.mid_Page .gestionPerso img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+.mid_Page .article {
+  text-decoration: none;
+  color: #000;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.mid_Page .article .itemTop {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.mid_Page .article .itemTop img {
+  width: 30%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}/*# sourceMappingURL=index.css.map */
